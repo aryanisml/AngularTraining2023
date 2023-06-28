@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card">
+        <div>
+            <Figure>
+                <img [src]="stockInfo?.path" alt="product" />
+            </Figure>
+        </div>
+        <div>
+            <article>
+                <summary>
+                    {{stockInfo?.name}}
+                </summary>
+                <p>
+                    {{stockInfo?.description}}
+                </p>
+            </article>
+
+            <button class="btn" type="button" style="margin-top:16px;" (click)="navigateTo()"><span>Back to
+                    product</span></button>
+
+        </div>
+
+
+    </div>
+
+</div>

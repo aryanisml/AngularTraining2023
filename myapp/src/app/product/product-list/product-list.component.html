@@ -1,0 +1,26 @@
+<ng-template [ngIf]="showProduct" [ngIfElse]="detailPage">
+  <div class="container" >
+    <div *ngFor="let item of productList">
+        <div class="card" >
+          <div (dblclick)="cardDetails(item)" >
+            <h2 class="card-title"> {{item.name}}</h2>
+            <div class="card-content thumbnail">
+              <img [src]="item.path" alt="product"/>
+            </div>
+          </div>
+            <div class="card-footer">
+              <button class="counter__button" (click)="stockDecrement(item)">-</button>
+                <input type="text" class="counter__input" readonly value="{{item.count}}"/>
+              <button class="counter__button" (click)="stockIncrement(item)">+</button>
+            </div>
+          </div>
+    </div>    
+</div>
+</ng-template>
+
+<ng-template #detailPage>
+  <router-outlet></router-outlet>
+</ng-template>
+
+
+

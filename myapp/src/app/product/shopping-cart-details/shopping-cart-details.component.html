@@ -1,0 +1,13 @@
+
+
+<button class="btn" type="button" style="margin-top:16px;" (click)="navigateTo()"><span>Back to product</span></button>
+
+<ng-container *ngIf="cartIteamCount.length>0">
+    <div  *ngFor ="let item of  cartIteamCount" class="card" style="margin-top:24px;">
+        <div *ngIf="item.count!=0" style="display: flex;align-content: space-around;justify-content: space-between;align-items: baseline;flex-wrap: wrap;flex-direction: row;">
+            <div> <span style="font-weight: 800;">Product Name :</span>  {{item?.name}}</div>
+            <div> <span style="font-weight: 800">Product Quantity :</span>   {{item?.count}}</div>
+        </div>
+    </div>
+</ng-container>
+  

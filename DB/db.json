@@ -1,0 +1,36 @@
+{
+    "stocks": [
+      {
+        "id": 1,
+        "name": "Iphone 14",
+        "price": 79900,
+        "path" : "https://www.apple.com/v/iphone-14/i/images/key-features/features/size/size_yellow__dnv9794q7loy_large_2x.jpg",
+        "description" : "The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.54 centimetres / 6.12 inches diagonally (actual viewable area is less)."
+      },
+      {
+        "id": 2,
+        "name": "Watch SE",
+        "price": 29900,
+        "path": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU93_VW_34FR+watch-41-alum-starlight-nc-8s_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1683226539556",
+        "description" : "The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.54 centimetres / 6.12 inches diagonally (actual viewable area is less)."
+    
+      },
+      {
+        "id": 3,
+        "name": "Iphone SE",
+        "price": 33000,
+        "path":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-midnight-witb-202203?wid=380&hei=784&fmt=jpeg&qlt=90&.v=1644951336059",
+        "description" : "The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.54 centimetres / 6.12 inches diagonally (actual viewable area is less)."
+    
+      },
+      {
+        "id": 4,
+        "name": "Watch 8",
+        "price": 66000,
+        "path":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKU83_VW_34FR+watch-41-alum-midnight-nc-8s_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1683226539556",
+        "description" : "The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 15.54 centimetres / 6.12 inches diagonally (actual viewable area is less)."
+    
+      }
+      
+    ]
+  }
