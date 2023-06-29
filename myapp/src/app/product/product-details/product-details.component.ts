@@ -20,7 +20,6 @@ export class ProductDetailsComponent implements OnInit {
 
     this.activatedRouter.params.subscribe((params)=>{
       this.stockId = params['id'];
-      console.log(this.stockId);
       this.stockInfo = this.dataservice?.productDetails.find((d: StockInfo)=> d.id.toString() === this.stockId.toString());
      }
     )

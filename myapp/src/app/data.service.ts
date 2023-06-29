@@ -37,7 +37,6 @@ export class DataService {
       this.shoppoingCart.push(newValue);
     }
     this.dataSubjectArray.next(this.shoppoingCart);
-    console.log(this.productDetails);
   }
 
 
